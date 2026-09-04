@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<title>辞海数字化 · 全卷人工修正门户</title>
+<style>
+body{font-family:"Microsoft YaHei",sans-serif;margin:0;background:#eef2f7;color:#222;}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 24px 80px;}
+h1{font-size:22px;color:#1a3a6b;border-bottom:3px solid #1a5fb4;padding-bottom:10px;}
+.sub{color:#555;font-size:13px;margin:4px 0 14px;line-height:1.7;}
+table{border-collapse:collapse;width:100%;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.10);font-size:13px;}
+th{background:#1a5fb4;color:#fff;padding:7px;position:sticky;top:0;}
+td{border:1px solid #dfe6ef;padding:6px;text-align:center;}
+td.l{text-align:left;padding-left:12px;}
+a.main{font-size:15px;font-weight:bold;color:#1a5fb4;text-decoration:none;}
+tr:hover td{background:#eef6ff;}
+td.ok{color:#4caf50;} td.warn{color:#c62828;font-weight:bold;}
+td.tot{font-weight:bold;background:#f4f8ff;}
+tr.foot td{background:#dbe7fb;font-weight:bold;border-top:2px solid #1a5fb4;}
+</style><script>
+(function(){ 'use strict';
+  var K='cidian_lock';
+  var ok=false;
+  try{ var raw=localStorage.getItem(K); if(raw){ var st=JSON.parse(raw); ok=st&&Date.now()<st.exp; } }catch(e){}
+  if(!ok){ location.replace('index.html'); }
+})();
+</script><script>if(location.search.indexOf('logout')>=0){localStorage.removeItem('cidian_lock');}</script></head><body><script>
+(function(){ 'use strict';
+  var K='cidian_lock';
+  var ok=false;
+  try{ var raw=localStorage.getItem(K); if(raw){ var st=JSON.parse(raw); ok=st&&Date.now()<st.exp; } }catch(e){}
+  if(!ok){ location.replace('index.html'); }
+})();
+</script><div class="wrap">
+<div style="display:flex;justify-content:space-between;align-items:center"><span style="flex:1"><h1 style="margin:0">辞海数字化 · 全卷人工修正门户</h1>
+<div class="sub">共 23 卷 · 字头 18203 · 待人工 3311 项
+（疑误字头 3106 + 图注问题 205；AI 已核销 994 条不列出）。
+每卷页面只列出可能有误的条目并配原图裁剪，标签标注问题类型；所有字段可直接改，进度自动保存；
+单条可「已核 / 标为问题 / 重新填写 / 还原」；完成后点「导出已处理结果」。
+</div>
+<table><thead><tr><th style="text-align:left">卷</th><th>字头总数</th><th>疑误字头</th><th>图注问题</th><th>AI已核销</th><th>待人工</th></tr></thead>
+<tbody><tr><td class="l"><a class="main" href="review_A.html">A</a></td><td>188</td><td class="warn">12</td><td>0</td><td>14</td><td class="tot">12</td></tr><tr><td class="l"><a class="main" href="review_B.html">B</a></td><td>816</td><td class="warn">145</td><td>2</td><td>40</td><td class="tot">147</td></tr><tr><td class="l"><a class="main" href="review_C.html">C</a></td><td>1162</td><td class="warn">177</td><td>2</td><td>67</td><td class="tot">179</td></tr><tr><td class="l"><a class="main" href="review_D.html">D</a></td><td>841</td><td class="warn">80</td><td>6</td><td>50</td><td class="tot">86</td></tr><tr><td class="l"><a class="main" href="review_E.html">E</a></td><td>135</td><td class="warn">47</td><td>2</td><td>3</td><td class="tot">49</td></tr><tr><td class="l"><a class="main" href="review_F.html">F</a></td><td>526</td><td class="warn">39</td><td>4</td><td>33</td><td class="tot">43</td></tr><tr><td class="l"><a class="main" href="review_G.html">G</a></td><td>747</td><td class="warn">91</td><td>5</td><td>46</td><td class="tot">96</td></tr><tr><td class="l"><a class="main" href="review_H.html">H</a></td><td>960</td><td class="warn">185</td><td>19</td><td>48</td><td class="tot">204</td></tr><tr><td class="l"><a class="main" href="review_J.html">J</a></td><td>1286</td><td class="warn">241</td><td>29</td><td>60</td><td class="tot">270</td></tr><tr><td class="l"><a class="main" href="review_K.html">K</a></td><td>470</td><td class="warn">25</td><td>0</td><td>42</td><td class="tot">25</td></tr><tr><td class="l"><a class="main" href="review_L.html">L</a></td><td>1275</td><td class="warn">239</td><td>11</td><td>54</td><td class="tot">250</td></tr><tr><td class="l"><a class="main" href="review_M.html">M</a></td><td>714</td><td class="warn">158</td><td>2</td><td>36</td><td class="tot">160</td></tr><tr><td class="l"><a class="main" href="review_N.html">N</a></td><td>431</td><td class="warn">95</td><td>1</td><td>24</td><td class="tot">96</td></tr><tr><td class="l"><a class="main" href="review_O.html">O</a></td><td>32</td><td class="warn">2</td><td>0</td><td>2</td><td class="tot">2</td></tr><tr><td class="l"><a class="main" href="review_P.html">P</a></td><td>611</td><td class="warn">90</td><td>12</td><td>32</td><td class="tot">102</td></tr><tr><td class="l"><a class="main" href="review_Q.html">Q</a></td><td>895</td><td class="warn">179</td><td>11</td><td>50</td><td class="tot">190</td></tr><tr><td class="l"><a class="main" href="review_R.html">R</a></td><td>260</td><td class="warn">46</td><td>0</td><td>10</td><td class="tot">46</td></tr><tr><td class="l"><a class="main" href="review_S.html">S</a></td><td>1072</td><td class="warn">166</td><td>3</td><td>58</td><td class="tot">169</td></tr><tr><td class="l"><a class="main" href="review_T.html">T</a></td><td>851</td><td class="warn">115</td><td>2</td><td>58</td><td class="tot">117</td></tr><tr><td class="l"><a class="main" href="review_W.html">W</a></td><td>550</td><td class="warn">81</td><td>4</td><td>40</td><td class="tot">85</td></tr><tr><td class="l"><a class="main" href="review_X.html">X</a></td><td>1176</td><td class="warn">298</td><td>13</td><td>51</td><td class="tot">311</td></tr><tr><td class="l"><a class="main" href="review_Y.html">Y</a></td><td>1697</td><td class="warn">323</td><td>40</td><td>91</td><td class="tot">363</td></tr><tr><td class="l"><a class="main" href="review_Z.html">Z</a></td><td>1508</td><td class="warn">272</td><td>37</td><td>85</td><td class="tot">309</td></tr></tbody>
+<tfoot><tr class="foot"><td>合计</td><td>18203</td><td>3106</td>
+<td>205</td><td>994</td><td>3311</td></tr></tfoot></table>
+</div></body></html>
